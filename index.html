@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>my framework</title>
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/myapp.css">
+</head>
+<body>
+ 
+<div class="statusbar-overlay"></div>
+<div class="panel-overlay"></div>
+<div class="views">
+    <div class="view view-main">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div id="navTopLeft" class="left">
+                    <a href="#" class="link icon-only"><i class="icon icon-qrcode"></i></a>
+                </div>
+                <div id="navTopCenter" class="center">UZ App</div>
+                <div id="navTopRight" class="right">
+                    <a href="search.html" class="link icon-only"><i class="icon icon-news"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="pages navbar-through toolbar-through">
+            <div data-page="appHome" class="page">
+                <div class="page-content">
+                    <div class="swiper-container no-margin mtop">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/banner-3.jpg"/></div>
+                            <div class="swiper-slide"><img src="img/banner-1.jpg"/></div>
+                            <div class="swiper-slide"><img src="img/banner-2.jpg"/></div>
+                            <div class="swiper-slide"><img src="img/banner-4.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="content-block">
+                        <a class="button button-big button-fill button-raised color-pink" href="form.html">我要借钱</a>
+                        <a href="#" class="button ripple-red">Button With Red Ripple</a>
+                        <a href="#" class="my-link ripple">Link With Ripple Effect</a>
+                    </div>
+                    <div class="list-block">
+                      <ul>
+                        <li>
+                          <a href="languages.html" class="item-link item-content" data-context-name="languages">
+                              <div class="item-inner">
+                                <div class="item-title">Languages</div>
+                              </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="flex_box">
+                        <div class="flex_box1">
+                            
+                        </div>
+                        <div class="flex_box2">
+                            
+                        </div>
+                        <div class="flex_box3">
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- #底部导航栏 -->
+                <div class="toolbar tabbar tabbar-labels">
+                    <div class="toolbar-inner">
+                        <a href="#tabHome" data-tabName="tabHome" class="link active">
+                            <i class="icon icon-home"></i> <span class="tabbar-label">首页</span>
+                        </a>
+                        <a href="#tabFinance" data-tabName="tabFinance" class="link">
+                            <i class="icon icon-finance"></i> <span class="tabbar-label">理财</span>
+                        </a>
+                        <a href="view/user/index.html" class="link no-animation">
+                            <i class="icon icon-user"></i> <span class="tabbar-label">个人中心</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 登录/注册 -->
+<div id="login" class="popup popup-login">
+    <div class="content-block">
+        <p>About</p>
+        <p><a href="#" class="close-popup">Close popup</a></p>
+        <p>Lorem ipsum dolor ...</p>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<script type="text/javascript" src="js/myapp.js"></script>
+</body>
+</html>
